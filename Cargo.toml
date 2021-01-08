@@ -1,0 +1,16 @@
+[package]
+name = "sauron-test"
+version = "0.1.0"
+authors = ["Parker McMullin <parker.mcmullin01@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sauron = "0.33.0"
+console_error_panic_hook = "0.1.6"
+log = "0.4.11"
+console_log = "0.2.0"
